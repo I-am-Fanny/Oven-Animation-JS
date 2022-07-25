@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(245, 163, 41);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    border: 3px groove rgb(182, 39, 39);
+}
+
+.max-view-height{
+    height: 100vh;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+#container-oven{
+    position: relative;
+    width: 25%;
+    background-image: url('../img/oven.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#container-oven > video{
+    margin-top: 4px;
+    width: 100%;
+}
+
+.hidden{
+    opacity: 0%;
+}
+
+ #door-oven{
+    position: absolute;
+    height: 54%;
+    width: 84%;
+    top: 23%;
+    left: 8%;
+    background-color: red;
+    opacity: 25%;
+}
+
+
+#button-oven{
+background-image: url('../img/button-oven.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: absolute;
+height: 6.3%;
+width: 7%;
+top: 10.7%;
+left: 18.5%;
+}
+
+
+
